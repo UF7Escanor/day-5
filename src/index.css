@@ -18,7 +18,7 @@ body {
 
 .first {
     display: flex;
-    width: 60%;
+    width: 58%;
     height: 100vh;
     text-align: center;
     justify-content: center;
@@ -32,11 +32,11 @@ body {
     padding: 40px;
     border-style: solid;
     border-color: rgba(16, 115, 220, 0.195);
-    padding: 45px 45px 45px 45px;
-    border-radius: 4px;
+    padding: 45px 45px 45px 50px;
+    border-radius: 10px;
     text-align: center;
     border-width: 1px;
-    width: 400px;
+    width: 450px;
 
 
 
@@ -74,17 +74,18 @@ body {
 }
 
 .email-address {
+    padding-left: 10px;
 
-    width: 380px;
+    width: 440px;
     height: 40px;
     border-radius: 5px;
-    border-color: black;
+    border-color: whitesmoke;
     margin-bottom: 8px;
 }
 
 .second {
     position: relative;
-    width: 40%;
+    width: 42%;
     height: 100vh;
 
 
@@ -97,7 +98,7 @@ body {
 }
 
 .button {
-    width: 390px;
+    width: 460px;
     height: 40px;
     margin-top: 30px;
     border-radius: 5px;
@@ -144,8 +145,15 @@ body {
 }
 
 .second-text {
+
     font-size: 50px;
-    margin-top: 0%;
+    margin-top: 15px;
+    font-weight: 600;
+    color: white;
+    line-height: 50px;
+    margin-left: 40px;
+
+
 
 
 
@@ -170,7 +178,8 @@ body {
 
     justify-content: center;
     align-items: center;
-    margin-top: 300px;
+    margin-top: 110px;
+    margin-left: 40px;
 }
 
 .text3 {
@@ -179,4 +188,15 @@ body {
     margin-top: 8px;
 
 
+
+}
+
+.image4 {
+    justify-content: flex-end;
+    position: absolute;
+    align-items: center;
+
+    bottom: 180px;
+    left: 40px;
+    margin-top: 40px;
 }
